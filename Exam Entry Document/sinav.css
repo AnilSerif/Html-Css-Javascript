@@ -1,0 +1,213 @@
+#container{
+    width:100%;
+    height:650px;
+    overflow:auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+#logo{text-align:center;
+position: relative;
+margin-top:10px;}
+
+.baslik{text-align: center;
+position: relative;
+top:-13px;
+text-transform: uppercase;
+}
+
+#deneme{position:relative;
+border:1px solid red;
+height:15px;
+bottom:30px;
+background-color:red;}
+
+#onkisim{border:1px solid white;
+width:270px;
+height:16px;
+position: relative;
+bottom:56px;
+text-align: center;
+text-transform: uppercase;
+font-size:19px;
+font-weight: bold;
+letter-spacing:3px;
+left:39%;
+background-color:white;
+}
+
+/* İlk Kısım Başlangıç */
+
+#ilkkisim{
+    width:97%;
+    height:150px;
+    margin:0 auto;
+    border:1px solid black;
+    position: relative;
+    bottom:40px;    
+}
+
+#ekip{float:left;
+position: relative;
+top:6%;
+left:1%;
+}
+
+#yazi{position: relative;
+left:15%;
+bottom:10px;
+text-transform: uppercase;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+
+#yazi2{position: relative;
+left:34%;
+font-weight:bold;
+letter-spacing:2px;
+top:32px;
+}
+
+#yazi3{position: relative;
+left:33%;
+font-weight:bold;
+top:20px;
+}
+
+#kod{position: relative;
+float: right;
+clear: left;
+bottom:55%;
+right:50px;}
+
+#yazi4{position: relative;
+    float: right;
+    left:3%;
+    clear: left;
+    bottom:12px;
+    text-transform: uppercase;
+}
+/* İlk Kısım Bitiş */
+/* İkinci Kısım Başlangıç */
+
+#GenelKutu{display:grid;
+    width:96%;
+    min-height:590px;
+    margin:0 auto;
+    padding:5px;
+    position: relative;
+    bottom:11%;
+    grid-template-columns:repeat(2,auto);
+    
+}
+
+
+.ilkutu{width:99%;
+border:1px solid black;
+height:430px;
+}
+
+#tek{position: relative;
+top:20px;
+left:30px;}
+
+
+#box{text-align: center;
+line-height:3px;}
+
+#box2{
+    float: left;
+}
+
+#box2,ul{list-style:none;
+position: relative;
+right:8%;
+}
+
+#box2,h5{position: relative;
+  left:5px;
+}
+
+#altkisim{float: left;
+width:100%;
+background-color: aquamarine;
+position: relative;
+top:13%;
+}
+
+/* Yan Kutu */
+.ikincikutu{width:100%;
+    border:1px solid black;
+}
+
+#boxx{text-align: center;
+    line-height:3px;
+}
+
+#boxx2{
+    float: left;
+}
+
+#boxx2,ul{list-style:none;
+position: relative;
+
+}
+
+#box2,h5{position: relative;
+  left:5px;
+}
+
+/* Alt Kutu */
+
+.ücüncükutu{width:99%;
+    height:430px;
+    position: relative;
+    top:5px;
+    border:1px solid black;
+}
+
+#boxxx{text-align: center;
+    line-height:3px;}
+
+
+#altkisim2{float: left;
+    width:100%;
+    top:13%;
+    background-color: aquamarine;
+    position: relative;
+    
+   
+}
+
+#boxxx3{
+    float: left;
+}
+
+#boxxx3,ul{list-style:none;
+position: relative;
+}
+
+#boxxx3,h5{position: relative;
+  left:5px;
+}
+
+
+/* İkinci Kısım Bitiş*/
+/* Üçüncü Kısım Başlangıç */
+
+
+#Son{border:1px solid black;
+position: relative;
+bottom:9%;
+width:96%;
+height:685px;
+margin:0 auto;}
+
+.nd{position: relative;
+left:15px;}
+
+#imza{text-align: center;
+position: relative;
+padding-bottom:10px;}
+
