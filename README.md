@@ -4,4 +4,5 @@
 ### Discord Settings (Html/Css)
 ### Exam Entry Document (Html/Css)
 ### Random Comment Section (Html/Css/Js)
-### Rock Paper Scissors
+### Rock Paper Scissors (Html/Css/Js)
+### Movie Info (Html/Css/Js)
