@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Random Comment Section </title>
+<style>
+#div1{
+width:10%;
+height:150px;
+}
+#div2{
+width:100%;
+height:150px;
+background-color:lightblue;
+}
+#div3{
+width:100%;
+height:50px;
+background-color: antiquewhite;
+}
+</style>
+</head>
+<body>
+
+<div id="div1">
+
+    <div id="div2">
+
+
+    </div>
+    <div id="div3">
+
+
+    </div>
+
+</div>
+
+<script>
+
+var a=[{yorum:"İlk günden beri takip ediyorum",isim:"Hakan"},
+    {yorum:"Oldukça başarılı bir ürün, ilk günden etksini gösterdi", isim:"Şeyime Gündoğru"},
+    {yorum:"Berbat bir ürün almayın",isim:"Bahtiyar Işık"},
+    {yorum:"Süper bir ürün kayınçomdan gördüm",isim:"Kenan Dönen"}
+]
+
+var gelisigüzel;
+
+function RandomMember(){
+     gelisigüzel = Math.round(Math.random()*3);
+
+}
+
+    setInterval(function(){
+
+
+            RandomMember();
+        document.getElementById("div2").innerHTML= a[gelisigüzel].yorum;
+        document.getElementById("div3").innerHTML= a[gelisigüzel].isim;
+
+
+    },2000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>   
+</body>
+</html>
