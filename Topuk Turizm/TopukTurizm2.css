@@ -1,0 +1,245 @@
+*{margin:0px;
+padding:0px;
+}
+
+html,body{height:100%;}
+
+#AnaGövde{width:99.7%;
+min-height:1300px;
+border:1px solid red;
+font-family:Arial, Helvetica, sans-serif;
+overflow-x: hidden;
+}
+
+#Baslik{padding:5px;
+width:98.7%;
+margin:0px auto;
+min-height:79px;
+border:1px solid;}
+
+/* Birinci Etap */
+
+#toplama1{width:100%;
+display:block;
+min-height:22px;
+border:1px solid red;
+background:black;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:clip;
+}
+
+#baslikİlk{
+float:left;
+margin-left:22px;
+clear:right;
+}
+
+#baslikİki{
+float:right;
+margin-right:22px;
+margin-top:2px;
+
+}
+
+#toplama1 a{text-decoration:none;
+color:white;}
+
+/* Birinci Etabın Sonu */
+
+/*İkinci Etap */
+
+
+#toplama2{width:100%;
+display:block;
+min-height:53px;
+border:1px solid;
+margin-top:1px;
+background:lightblue;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:clip;
+}
+
+#Baslik h1{margin-top:5px;
+margin-left:15px;
+letter-spacing: 3px;
+float:left;
+clear:right;
+}
+
+#Baslik nav{
+width:50px;
+margin:0px auto;
+position:relative;
+top:17px;}
+
+
+#Baslik ul{list-style:none;
+width:690px;
+height:20px;
+margin:0px;
+padding:0px;
+}
+
+#Baslik li{
+float:left;
+padding:0px 13px;
+height:20px;
+}
+
+#toplama2 a{text-decoration:none;
+color:black;}
+
+
+
+/*İkinci Etabın Sonu */
+
+/* Üçüncü Etabın Başlangıcı */
+
+#İçerik{width:99.2%;
+min-height:830px;
+margin:auto;
+margin-top:2px;
+cursor:default;
+}
+
+#İçerik img{width:100%;
+height:235px;}
+
+#OrtaBar{display:grid;
+border:1px solid black;
+grid-template-columns:auto auto auto auto;
+width:690px;
+position:relative;
+top:-2px;
+grid-gap:3px;
+background:beige;
+margin:auto;}
+
+#OrtaBarElemanı{border:1px solid red;
+height:25px;
+text-align:center;
+text-transform:uppercase;
+font-weight:bold;
+padding-top:7px;}
+
+
+#İçerik a{text-decoration:none;
+color:black;
+}
+
+
+
+#İçerik form{margin:0px auto;
+padding:0px;
+border:2px solid black;
+width:980px;
+min-height:40px;
+position:relative;
+text-overflow:clip;
+white-space:nowrap;
+background:yellow;
+cursor:default;
+}
+
+
+#İçerik input[type=text]{width:140px;}
+
+#İçerik input:focus{background-color:aqua;}
+
+#İçerik input[type=submit]{height:50px;
+margin-left:5px;
+width:40px;}
+
+#İçerik h3{padding:10px;
+margin-top:15px;
+position:relative;
+left:33px;}
+
+#İçerik2{border:1px solid black;
+width:1250px;
+display:grid;
+grid-template-columns:auto auto auto auto;
+grid-gap:5px;
+min-height:430px;
+margin:0px auto;
+padding:0px;
+position:relative;
+
+}
+
+#İcElemanlar{border:1px solid black;
+width:260px;
+height:143px;
+margin-top:10px;
+margin-left:20px;}
+
+#İcElemanlar img{width:260px;
+height:90px;} 
+
+#İcElemanlar h4{margin-top:5px;
+text-align:center;}
+
+#İcElemanlar p{margin-top:5px;
+text-align:center;
+font-size:14px;}
+
+
+
+/* Üçüncü Etabın Sonu */
+
+/*Dördüncü Etabın Sonu */
+
+.İcerikKismi2{width:99.2%;
+min-height:600px;
+margin:auto;
+margin-top:5px;
+text-decoration:none;
+}
+
+.İcerikKismi2 h4{
+padding:5px;
+margin-top:5px;
+position:relative;
+text-decoration:none;
+color:black;
+left:30px;}
+
+.İcerikKismi2 p{margin-top:5px;
+text-decoration:none;
+color:black;}
+
+#toplama5{border:1px solid black;
+width:1250px;
+padding:3px;
+line-height:25px;
+margin:auto;}
+
+#toplama6{margin:auto;
+margin-top:10px;
+width:1260px;
+border-top: 1px solid ;
+border-bottom:1px solid;
+text-align:center;}
+
+#toplama6 input[type=submit]{width:60px;
+height:20px;}
+
+#toplama6 p{line-height:25px;
+font-size:13px;}
+
+#altkısım{width:99.2%;
+min-height:18px;}
+
+#AltBar{display:grid;
+width:1200px;
+margin:auto;
+margin-top:5px;
+grid-template-columns:auto auto auto auto auto auto auto auto;}
+
+#AltBarElemanları{text-align:center;
+font-size:13px;}
+
+#AltBarElemanları a{text-decoration:none;
+color:black;}
