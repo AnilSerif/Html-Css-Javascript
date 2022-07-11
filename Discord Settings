@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="da.css">
+</head>
+<body>
+<div class="butun">
+
+	<div class="sidebar"> 
+			<ul> 
+				<li class="baslik"> Kullanıcı Ayarları </li>
+				<li class="İcEleman"> <a href="#"> Hesabım </a> </li>
+				<li class="İcEleman"> <a href="#"> Gizlilik ve Güvenlik </a> </li>
+				<li class="İcEleman"> <a href="#"> Yetkili Uygulamalar </a> </li>
+				<li class="İcEleman"> <a href="#"> Bağlantılar </a> </li>
+			</ul>
+			<hr/>
+			<ul>
+				<li class="baslik"> Faturalandırma Ayarları </li>
+				<li class="İcEleman"> <a href="#"> Discord Nitro </a> </li>
+				<li class="İcEleman"> <a href="#"> Sunucu Takviyesi </a> </li>
+				<li class="İcEleman"> <a href="#"> Hediye Envanteri </a> </li>
+				<li class="İcEleman"> <a href="#"> Faturalandırma </a> </li>
+			</ul>
+			<hr/>
+			<ul>
+				<li class="baslik"> Uygulama Ayarları </li>
+				<li class="İcEleman"> <a href="#"> Görünüm </a> </li>
+				<li class="İcEleman"> <a href="#"> Erişilebilirlik </a> </li>
+				<li class="İcEleman"> <a href="#"> Ses ve Görüntü </a> </li>
+				<li class="İcEleman"> <a href="#"> Metin ve Resimler </a> </li>
+				<li class="İcEleman"> <a href="#"> Bildirimler </a> </li>
+				<li class="İcEleman"> <a href="#"> Tuş Atamaları </a> </li>
+				<li class="İcEleman"> <a href="#"> Dil </a> </li>
+				<li class="İcEleman"> <a href="#"> Yayıncı Modu </a> </li>
+				<li class="İcEleman"> <a href="#"> Gelişmiş </a> </li>
+			</ul>
+			<hr/>
+			<ul>
+				<li class="baslik"> ACTIVITY SETTINGS </li>
+				<li class="İcEleman"> <a href="#"> Activity Status </a> </li>
+			</ul>
+			<hr/>
+			<ul>	
+				<li class="baslik"> Değişim Kaydı </li>
+				<li class="İcEleman"> <a href="#"> HyperSquad </a> </li>
+			</ul>
+			<hr/>
+			<ul>
+				<li class="son"> <a href="#">Çıkış Yap </a></li>
+			</ul>
+			<hr/>
+			<div class="ikonlar"> <a href="#"> <img src="tivit.png"> </a>
+								<a href="#"> <img src="face.png"> </a>
+								<a href="#"> <img src="insta.png"> </a>
+			</div>
+	</div>
+	<div class="mainsection">
+		<h3> Hesabım </h3>
+			<div class="kutu">
+				<div class="container">
+					<img src="baykus.jpg" alt="Baykuş">
+						<div class="overlay">
+							<div class="text"> <a href="#" title="Dosya bulunamadı"> Avatarı Değiştir </a> </div>
+						</div>	
+				 </div>
+								<h4 class="Kullanıcı"> Kullanıcı#1111 </h4>
+								<h4 class="YanKutu"> <a href="#"> ... </a> </h4>				 
+					<div class="İcKutu">
+						<h4 class="KullanıcıAdı"> KULLANICI ADI </h4>
+						<h5 class="ÜyeSayısı"> Kullanıcı#1111 </h5>
+						<div class="Düzenle1"> <h4> <a href="#"> Düzenle </a> </h4> </div>
+						<h4 class="Eposta"> E-POSTA </h4>
+						<h5 class="mail"> **********@hotmail.com </h5>
+						<div class="Düzenle2"> <h4> Düzenle </h4> </div>
+						<h4 class="Numara"> Telefon Numarası </h4>
+						<h5 class="Telefon"> Henüz bir telefon numarası eklemedin. </h5>
+						<div class="Düzenle3"> <h4> Ekle </h4> </div>
+					</div>		
+			</div>
+			<br/>
+			<br/>
+			<hr/>
+			<div class="kutu2">
+				<h3> Şifre ve Doğrulama </h3>
+				<div class="sifred"> <a href="#"> Şifreyi Değiştir </a> </div>
+				<h5> İKİ AŞAMALI DOĞRULAMA </h5>
+				<h5> Discord hesabını ekstra bir güvenlik önlemiyle koru. Yapılandırıldığında giriş <br/>
+				yapmak için hem şifreni hem de cep telefonundan doğrulama kodunu girmen <br/>
+				gerekecektir. </h5>
+				<div class="sifred1"> <a href="#"> İki Aşamalı Doğrulamayı etkinleştir </a> </div>
+			</div>
+			<br/>
+			<br/>
+			<hr/>
+			<div class="kutu3">
+				<h5> Hesap Kaldırma </h5>
+					<h5> Hesabını devre dışı bıraktıktan sonra istediğin zaman geri alabilirsin. </h5>
+						<div class="Silme1"> <a href="#"> Hesabı Devre Dışı Bırak </a> </div>
+						<div class="Silme2"> <a href="#"> Hesabı Sil </a> </div>
+			</div>	
+		</div>
+	</div>
+</div>
+</body>
+</html>
