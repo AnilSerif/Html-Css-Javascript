@@ -1,0 +1,95 @@
+#div1{
+    width:52%;
+    height:300px;
+    position: relative;
+    top:100px;
+    left:25%;
+    border:2px solid green;
+    box-shadow:green 0px 5px 3px;
+}
+
+#sonuc{
+    width:50%;
+    height:100px;
+    position: relative;
+    top:130px;
+    left:25%;
+    color:forestgreen;
+    font-size:64px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#player1{
+    width:200px;
+    height:200px;
+    float:left;
+    border-bottom:2px solid black;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-image:url(tas.jpg);
+    background-size:150px 150px;
+}
+
+#player2{
+    width:200px;
+    height:200px;
+    float:right;
+    border-bottom:2px solid black;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-image:url(makas.jpg);
+    background-size: 150px 150px;
+}
+
+#skor{
+    width:275px;
+    height:200px;
+    float:left;
+    text-align:center;
+    font-size:32px;
+    color: black;
+}
+
+#skor1{
+    width:75px;
+    height:75px;
+    background-color:white;
+    margin-top:80px;
+    margin-left:25px;
+    float:left;
+    border:1px solid black;
+    box-shadow:gray 0px 5px 3px;
+    text-align: center;
+    font-size:64px;
+}
+
+#skor2{
+width:75px;
+height:75px;
+background-color: white;
+margin-top:80px;
+margin-right:25px;
+float:right;
+border:1px solid black;
+box-shadow:gray 0px 5px 3px ;
+text-align:center;
+font-size:64px;
+}
+
+.play{
+color: black;
+font-size:28px;
+font-weight:bold;
+text-align: center;
+margin-top:200px;
+text-shadow:2px 2px 1px gray;
+}
+
+#btn{position: relative;
+width:200px;
+height:40px;
+margin-top:30px;
+margin-left:240px;
+font-size:20px;
+}
