@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Exam</title>
+    <style>
+        
+        .container{
+            width:100%;
+            margin:auto 0;
+      
+            
+        }
+        form{
+            width:100%;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top:10px;
+            font-size:15px;
+        }
+        form input{
+            height:19px;
+            border:2px solid;
+        }
+
+        p{
+            margin-left:10px;
+            font-size:20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;text-decoration: underline;">Not Hesaplama Sistemine Hoş Geldiniz</h1>
+
+    <div class="container">
+        <form>
+            <label> İlk Notunuzu Giriniz:</label> 
+            <input type="number" id="firstLesson"> <br/><br/>
+            <label> İkinci Notunuzu Giriniz: </label>
+            <input type="number" id="secondLesson"> <br/><br/>
+            <label>Üçüncü Notunuzu Giriniz: </label>
+            <input type="number" id="thirdLesson"> <br/><br/>
+            <button type="button" id="Calculate"> Hesapla </button>
+
+        </form>
+        <p> Çıkan Sonuç: <span id="final"> </span></p>
+    </div>
+
+
+
+
+    <script src="finalExam.js"></script>
+</body>
+</html>
